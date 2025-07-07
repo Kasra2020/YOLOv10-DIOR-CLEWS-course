@@ -4,4 +4,4 @@
 
 - The dataset utilized in this course is a subset of DIOR, sourced from "Li, Ke, et al. "Object detection in optical remote sensing images: A survey and a new benchmark." ISPRS journal of photogrammetry and remote sensing 159 (2020): 296-307".
 
-Please note that this notebook's sole purpose is educational. We do not aim to develop or train the most accurate model. The model's low accuracy is due to the limited amount of data (139 images containing 1,232 instances) used for training of the YOLOv10 model from scratch. Consequently, the results are suboptimal. However, performance improves when fine-tuning a pretrained model on the similar task.
+Please note that the purpose of this notebook is purely educational. Due to time and computational constraints, we only use a subset of DIOR data: 139 images containing 1,232 instances. Therefore, our goal is not to develop or train the most accurate model. The model's low accuracy is due to the limited amount of data used to train the YOLOv10 model from scratch. Consequently, the results are suboptimal. However, performance improves slightly when fine-tuning a pretrained model with similar data.
